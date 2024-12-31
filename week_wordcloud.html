@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-wordcloud.min.js"></script>
+
+</head>
+<body style="margin:0px">
+    <div id="c0dbf59bc5fd4b36a591b24e132bbf81" class="chart-container" style="width:100%; height:960px; "></div>
+    <script>
+        var chart_c0dbf59bc5fd4b36a591b24e132bbf81 = echarts.init(
+            document.getElementById('c0dbf59bc5fd4b36a591b24e132bbf81'), 'dark', {renderer: 'svg'});
+        var option_c0dbf59bc5fd4b36a591b24e132bbf81 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "wordCloud",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                32,
+                160
+            ],
+            "data": [
+                {
+                    "name": "C+\u5d4c\u5165\u5f0f",
+                    "value": 2.0,
+                    "textStyle": {
+                        "color": "rgb(108,47,38)"
+                    }
+                },
+                {
+                    "name": "Java",
+                    "value": 3.0,
+                    "textStyle": {
+                        "color": "rgb(91,122,138)"
+                    }
+                },
+                {
+                    "name": "Python",
+                    "value": 5.0,
+                    "textStyle": {
+                        "color": "rgb(46,32,55)"
+                    }
+                },
+                {
+                    "name": "\u5176\u4ed6",
+                    "value": 1.0,
+                    "textStyle": {
+                        "color": "rgb(82,123,78)"
+                    }
+                },
+                {
+                    "name": "\u524d\u7aefhtml+css+js",
+                    "value": 2.0,
+                    "textStyle": {
+                        "color": "rgb(108,67,67)"
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "           \u76ee\u524d\u638c\u63e1\u7684\u6280\u672f",
+            "target": "blank",
+            "subtext": "\u738b\u7ee7\u8377 \u98df\u54c1\u79d1\u5b66\u4e0e\u5de5\u7a0b23(2) 2321002246",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "20px",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_c0dbf59bc5fd4b36a591b24e132bbf81.setOption(option_c0dbf59bc5fd4b36a591b24e132bbf81);
+            window.addEventListener('resize', function(){
+                chart_c0dbf59bc5fd4b36a591b24e132bbf81.resize();
+            })
+    </script>
+</body>
+</html>
